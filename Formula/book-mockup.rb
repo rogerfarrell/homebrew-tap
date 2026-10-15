@@ -1,8 +1,8 @@
 class BookMockup < Formula
   desc "Render photographic mockups of upright books from flat cover artwork"
   homepage "https://github.com/rogerfarrell/book-mockup"
-  url "https://github.com/rogerfarrell/book-mockup/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "1a520d8253bfccb72cd1d35bfd67e11fb6417dc7452fe63bfd5d73284f34c6c1"
+  url "https://github.com/rogerfarrell/book-mockup/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "342b68a2fc2ca3fae6bbffce897dd336562a53c4eaa5433f7798e5912ab2020f"
   license "GPL-3.0-or-later"
   head "https://github.com/rogerfarrell/book-mockup.git", branch: "main"
 
