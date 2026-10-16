@@ -1,8 +1,8 @@
 class BookMockup < Formula
   desc "Render photographic mockups of upright books from flat cover artwork"
   homepage "https://github.com/rogerfarrell/book-mockup"
-  url "https://github.com/rogerfarrell/book-mockup/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "342b68a2fc2ca3fae6bbffce897dd336562a53c4eaa5433f7798e5912ab2020f"
+  url "https://github.com/rogerfarrell/book-mockup/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "cf514a02be7a94086f68882e6c6ab1c1c3e789016e820b8508d162d9dafbfc7a"
   license "GPL-3.0-or-later"
   head "https://github.com/rogerfarrell/book-mockup.git", branch: "main"
 
@@ -40,7 +40,7 @@ class BookMockup < Formula
                               "-s", testpath/"spine.png",
                               "-k", testpath/"back.png",
                               "-W", "240", "-H", "240", "-b", "180",
-                              "-f", "600", "-a", "155", "-e", "1.4",
+                              "-p", "0.3", "-a", "155", "-e", "1.4",
                               "-g", "none", "-o", testpath/"mockup.png"
 
     assert_path_exists testpath/"mockup.png"
